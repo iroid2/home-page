@@ -41,7 +41,6 @@ body{
                     @media(max-width:700px),(max-width: 400px){
                         width: 97%;
                         justify-content: space-between;
-                        // background-color: red;
                     }
                     
                     img{
@@ -52,12 +51,14 @@ body{
                     }
                     .menu{
                         color: white;
-                        height: 2rem;
-                        padding: .4rem .4rem;
+                        padding: 0rem .3rem;
                         background-color: #00b381;
                         visibility: hidden;
+                        font-size: 1rem;
                         @media(max-width:700px),(max-width: 400px){
                             visibility: visible;
+                            display: flex;
+                            align-items: center;
                         }
                     }
                 }
@@ -147,6 +148,10 @@ body{
             .left-sectn{
                 height: 190px;
                 background-color: rgb(210,210,210);
+                
+                @media(max-width:700px),(max-width: 400px){
+                    background-color: red;
+                }
                 img{
                     width: 50%;
                 }
@@ -155,6 +160,7 @@ body{
                     gap: 1rem;
                     padding: 1rem 2rem;
                     width: 50%;
+                    padding: 1rem;
                     h3{
                         font-weight: bold;
                         font-family: Arial, Helvetica, sans-serif;

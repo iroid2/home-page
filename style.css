@@ -41,6 +41,11 @@ h2 {
   padding-bottom: 1rem;
   padding-top: 2rem;
 }
+@media (max-width: 700px), (max-width: 400px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+}
 
 .mission {
   width: 100%;
@@ -111,6 +116,7 @@ h2 {
 }
 
 .variety {
+  width: 100%;
   margin-top: 5rem;
   padding: 3rem 5rem;
   gap: -4rem;
@@ -206,6 +212,11 @@ h2 {
   letter-spacing: 0.2rem;
   color: rgb(86, 86, 87);
 }
+@media (max-width: 700px), (max-width: 400px) {
+  .service .top-service p {
+    font-size: 15px;
+  }
+}
 .service .bottm-service {
   width: 100%;
 }
@@ -265,14 +276,16 @@ body .container .header .nav-Bar .left-nav img {
 }
 body .container .header .nav-Bar .left-nav .menu {
   color: white;
-  height: 2rem;
-  padding: 0.4rem 0.4rem;
+  padding: 0rem 0.3rem;
   background-color: #00b381;
   visibility: hidden;
+  font-size: 1rem;
 }
 @media (max-width: 700px), (max-width: 400px) {
   body .container .header .nav-Bar .left-nav .menu {
     visibility: visible;
+    display: flex;
+    align-items: center;
   }
 }
 body .container .header .nav-Bar .right-nav {
@@ -370,6 +383,11 @@ body .container .donation .left-sectn {
   height: 190px;
   background-color: rgb(210, 210, 210);
 }
+@media (max-width: 700px), (max-width: 400px) {
+  body .container .donation .left-sectn {
+    background-color: red;
+  }
+}
 body .container .donation .left-sectn img {
   width: 50%;
 }
@@ -378,6 +396,7 @@ body .container .donation .left-sectn .text-sectn {
   gap: 1rem;
   padding: 1rem 2rem;
   width: 50%;
+  padding: 1rem;
 }
 body .container .donation .left-sectn .text-sectn h3 {
   font-weight: bold;
